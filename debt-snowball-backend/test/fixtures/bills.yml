@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  balance: 1
+  APR: 1
+  due_date: 2019-07-06
+
+two:
+  name: MyString
+  balance: 1
+  APR: 1
+  due_date: 2019-07-06

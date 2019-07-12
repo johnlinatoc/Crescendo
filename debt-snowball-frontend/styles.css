@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  font-family: 'Lato', helvetica, sans-serif;
+}
+
+/* ==========   login    =========*/
+
+.centerall {
+height: 100vh;
+padding: 0;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#video-container {
+  /* overflow: hidden; */
+  position: absolute;
+  overflow: hidden;
+  width: 100vw;
+}
+
+#video {
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100vh
+  width: auto;
+  height: 100vh;
+  z-index: -100;
+  transform: scale(1.3)
+}
+
+#login-container {
+  top: 0;
+  background: black;
+  padding: 30.2rem 57rem;
+  position: absolute;
+  opacity: .6;
+  background-color: #163159d4;
+  z-index: -10;
+}
+
+#login-header-1 {
+  color: white;
+  text-shadow: 4px 4px 8px black;
+  font-weight: lighter;
+  font-size: 3.2rem;
+}
+#login-header-2 {
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.loaded {
+  transition: opacity 1000ms;
+}
+
+
+#all-users li h2 button  {
+  margin-left: 2rem;
+position: absolute;
+top: 39px;
+right: 71px;
+}
+
+/* ==========   login END   =========*/
+
+#bg {
+  background: #e2ebf0;
+}
+
+#user-welcome {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 230;
+  color: white;
+  box-shadow: 0 4px 16px black;
+  background: rgb(109,105,136);
+  background: linear-gradient(180deg, rgba(109,105,136,0.8365721288515406) 0%, rgb(154, 207, 249) 100%);
+  /* text-shadow: 2px 2px 7px black; */
+  padding: 1rem;
+  text-shadow: 2px 1px 8px black;
+}
+
+#data {
+  background: cadetblue;
+  display: block;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  float: left;
+}
+
+#data h3 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  background: #e2ebf0;
+}
+
+#data p:nth-child(2) {
+  font-size: x-large;
+  padding: 1rem;
+  background: #e2ebf0;
+}
+
+#data p {
+  padding-left: 1rem;
+  background: #e2ebf0;
+}
+
+#parent-form ul li {
+  margin: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#chart {
+  width: 50rem;
+  height: 19rem;
+  display: inline-block;
+  margin-left: 0rem;
+  margin-top: 2rem;
+}
+
+.css-div {
+  height: 100vh
+}
+
+#chart-name {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: xx-large;
+}
+
+#bill-table {
+  margin-bottom: 0
+}
+
+table {
+    border-collapse: collapse;
+    width: 56%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
